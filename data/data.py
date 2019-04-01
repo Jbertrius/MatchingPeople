@@ -64,6 +64,27 @@ def peoples():
         {
             'name': 'Tom',
             'sex': 'M'
+        },
+
+        {
+            'name': 'Emilie',
+            'sex': 'F'
+        },
+        {
+            'name': 'Fabrice',
+            'sex': 'M'
+        },
+        {
+            'name': 'Jackson',
+            'sex': 'M'
+        },
+        {
+            'name': 'Christian',
+            'sex': 'M'
+        },
+        {
+            'name': 'Emmanuelle',
+            'sex': 'F'
         }
     ]
 

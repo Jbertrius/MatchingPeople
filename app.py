@@ -3,7 +3,10 @@ from data import *
 
 app = Flask(__name__)
 
+from data.data import peoples
+from utils.random_matching import random_matching
 
+Peoples = peoples()
 
 
 @app.route('/')
@@ -13,7 +16,7 @@ def index():
 
 @app.route('/matching')
 def result():
-    return render_template('result.html')
+    return render_template('result.html', peoples=random_matching(Peoples, 5))
 
 
 if __name__ == '__main__':
